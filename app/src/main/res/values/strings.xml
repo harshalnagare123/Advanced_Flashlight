@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlashMate Flashlight pro</string>
+    <string name="power_button">Power Button</string>
+    <string name="Banner_ad_unit_id">banner_ad_unit_id</string>
+    <string name="App_ID">Your_app_id</string>
+    <string name="bright_screen">Bright Screen</string>
+    <string name="nightvision">nightvision</string>
+    <string name="strobe">Strobe</string>
+    <string name="sos">SOS</string>
+    <string name="flashmate">FLASHMATE</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="bright_screenactivity">Bright Screen</string>
+    <string name="about">About</string>
+    <string name="default_web_client_id">your_web_client_id</string>
+</resources>

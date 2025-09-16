@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/fullscreen"
+    tools:context=".Brightscreenactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <Button
+            android:id="@+id/choosetv"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/blueimg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/choose_color"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/brightscreentv"
+            android:text="@string/bright_screenactivity"
+            android:textSize="25sp"
+            android:textColor="#292828"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ImageView
+            android:id="@+id/centergreenimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:elevation="30dp"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/yellowimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="55dp"
+            android:layout_toEndOf="@id/centergreenimg"
+            android:elevation="30dp"
+            android:src="@drawable/yellow"/>
+
+        <ImageView
+            android:id="@+id/brownimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@id/centergreenimg"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="55dp"
+            android:elevation="30dp"
+            android:src="@drawable/brown"/>
+
+        <ImageView
+            android:id="@+id/redimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@id/centergreenimg"
+            android:layout_toStartOf="@id/centergreenimg"
+            android:layout_marginBottom="30dp"
+            android:elevation="30dp"
+            android:src="@drawable/red"/>
+
+        <ImageView
+            android:id="@+id/blueimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/centergreenimg"
+            android:layout_toStartOf="@id/centergreenimg"
+            android:elevation="30dp"
+            android:src="@drawable/blue"/>
+
+        <ImageView
+            android:id="@+id/lightblueimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/centergreenimg"
+            android:layout_toEndOf="@id/centergreenimg"
+            android:layout_marginTop="30dp"
+            android:elevation="30dp"
+            android:src="@drawable/light_blue"/>
+
+        <ImageView
+            android:id="@+id/purpleimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@id/centergreenimg"
+            android:layout_toEndOf="@id/centergreenimg"
+            android:layout_marginBottom="30dp"
+            android:elevation="30dp"
+            android:src="@drawable/purple"/>
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="20dp"
+        android:src="@drawable/cancel"/>
+
+    <ImageView
+        android:id="@+id/backbtnbrightscreen"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="20dp"
+        android:src="@drawable/cancel"/>
+
+
+
+</RelativeLayout>
