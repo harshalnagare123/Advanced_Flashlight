@@ -50,7 +50,7 @@ public class Brightscreenactivity extends AppCompatActivity {
 //        });
 //        AdRequest adRequest = new AdRequest.Builder().build();
 //
-//        InterstitialAd.load(this,"ca-app-pub-4238387201988261/8610100028", adRequest, new InterstitialAdLoadCallback() {
+//        InterstitialAd.load(this,"Insterstitial_ad_id", adRequest, new InterstitialAdLoadCallback() {
 //            @Override
 //            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
 //                mInterstitialAd = interstitialAd;
